@@ -12,7 +12,7 @@ def main():
 
 def user_choices(menu, choice):
     """The function for the user to convert celsius to fahrenheit or otherwise."""
-    while choice != "Q":
+    while choice != "Q" :
         if choice == "C":
             celsius = float(input("Celsius: "))
             fahrenheit = celsius * 9.0 / 5 + 32
