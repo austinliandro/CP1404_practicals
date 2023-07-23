@@ -6,6 +6,7 @@ AVERAGE_SCORE = 50
 
 
 def main():
+    """The function that we can call"""
     print(MENU)
     choice = input(">>> ").upper()
     while choice != 'Q':
@@ -23,6 +24,7 @@ def main():
 
 
 def get_choice():
+    """To make the user input the score"""
     score = int(input("Your score: "))
     while score < 0 or score > 100:
         print("Invalid score")
@@ -33,6 +35,7 @@ def get_choice():
 
 
 def user_score(score):
+    """To check the score"""
     if score >= EXCELLENT_SCORE:
         message = "Excellent"
     elif score >= AVERAGE_SCORE:
@@ -46,6 +49,7 @@ def user_score(score):
 
 
 def show_choice(score):
+    """to print the star"""
     for i in range(int(score)):
         print("*", end=" ")
     print()
