@@ -7,6 +7,7 @@ AVERAGE_SCORE = 50
 
 def main():
     """The function that we can call"""
+    score = 0
     print(MENU)
     choice = input(">>> ").upper()
     while choice != 'Q':
