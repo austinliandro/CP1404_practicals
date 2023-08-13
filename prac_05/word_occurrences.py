@@ -1,6 +1,6 @@
 """
 CP1404 Practical - Austin Liandro
-Count word occurrences in a string
+Count word occurrences in a string 
 """
 
 word_count = {}
