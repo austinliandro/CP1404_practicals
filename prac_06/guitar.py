@@ -1,6 +1,6 @@
 """
 CP1404 Practical - Austin Liandro
-Guitar class
+Guitar classes
 """
 CURRENT_YEAR = 2017
 VINTAGE_AGE = 50
